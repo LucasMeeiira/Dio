@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:  sans-serif;
+}
+
+body{
+    background-color: #15161b;
+}
+
+.cabecalho{
+    background-color: #0a0a0a;
+    display: flex; 
+
+}
+
+.cabecalho_informacoes-pessoa{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 20%;
+    margin: 0 2.5rem 0 0;
+}
+
+
+.lista{
+    list-style: none;
+    width: 20%;
+    
+}
+
+.lista_img-sino{
+    width: 80%;
+    cursor: pointer;
+}
+
+.nova_img-sino{
+    width: 2.1vw;
+    height: 5.8vh;
+    margin:0.8rem  0 0 1rem;
+}
+
+
+.lista2{
+    display: flex;
+    gap: 0.3rem;
+    margin-top: 0.2rem;
+
+    align-items: center;
+    background-color: #363537;
+    border-radius:40px;
+
+    width: 20%;
+    height: 55%;
+}
+
+
+.lista2_img-coracao{
+    width: 45%;
+    margin-left: 0.7rem;
+}
+
+.lista2-numero{
+   font-weight: 700;
+   color: #ffffff;
+}
+
+
+
+.list3{
+    width: 20%;
+    height: 70%;
+    
+
+    background-color: #fff;
+}
+
+.lista3_img{
+    width: 60%;
+    border: 3px solid #22dd7a;
+    border-radius: 25px;
+    margin: 0.4rem 0 0 1.5rem;
+}
+
