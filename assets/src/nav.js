@@ -121,11 +121,6 @@ class Navcomponents extends HTMLElement{
         .list7:hover {
             color: #fff;
         }
-
-       
-        
-        
-        
         
         `
         return style;
